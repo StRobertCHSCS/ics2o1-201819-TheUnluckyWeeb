@@ -1,8 +1,8 @@
 import arcade
 
 
-WIDTH = 640
-HEIGHT = 480
+WIDTH = 1920
+HEIGHT = 1080
 
 
 def on_update(delta_time):
@@ -12,8 +12,8 @@ def on_update(delta_time):
 def on_draw():
     arcade.start_render()
     # Draw in here...
-    arcade.draw_circle_filled(100, 100, 25, arcade.color.BLUE)
 
+    arcade.draw_circle_filled(960, 540, 25, arcade.color.WHITE)
 
 def on_key_press(key, modifiers):
     pass
@@ -29,7 +29,7 @@ def on_mouse_press(x, y, button, modifiers):
 
 def setup():
     arcade.open_window(WIDTH, HEIGHT, "My Arcade Game")
-    arcade.set_background_color(arcade.color.WHITE)
+    arcade.set_background_color(arcade.color.AMETHYST)
     arcade.schedule(on_update, 1/60)
 
     # Override arcade window methods
