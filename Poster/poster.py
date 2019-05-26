@@ -1,3 +1,10 @@
+'''
+Name: poster.py
+Purpose: To advertise a new product
+
+Author: Lu.Luke
+Date created: 2019.5.26
+'''
 import arcade
 
 #Declaring poster resolution
